@@ -55,7 +55,8 @@ if (-not (Test-Path $devToolsPath)) {
 
 $files = @(
     "https://raw.githubusercontent.com/codeGroup2020/devTools/main/main/devTools.bat",
-    "https://raw.githubusercontent.com/codeGroup2020/devTools/main/main/devTools.py"
+    "https://raw.githubusercontent.com/codeGroup2020/devTools/main/main/devTools.py",
+    "https://raw.githubusercontent.com/codeGroup2020/devTools/main/main/devToolsConfig.json"
 )
 
 foreach ($file in $files) {
