@@ -1,11 +1,6 @@
 # devTools
 
-To install copy paste and run the following command set:
-```powershell
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser; Invoke-WebRequest -Uri "https://raw.githubusercontent.com/codeGroup2020/devTools/main/installers/powershellInstaller.ps1" -OutFile "$env:USERPROFILE\powershellInstaller.ps1"; Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit", "-File `"$env:USERPROFILE\Downloads\powershellInstaller.ps1`"" -Verb RunAs
-```
-
-Or run these commands sequentially
+To install copy paste and run the following commands sequentially in a powershell terminal:
 ```powershell
 Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
 ```
@@ -17,4 +12,3 @@ Invoke-WebRequest -Uri "https://raw.githubusercontent.com/codeGroup2020/devTools
 ```powershell
 Start-Process -FilePath "powershell.exe" -ArgumentList "-NoExit", "-File `"$env:USERPROFILE\Downloads\powershellInstaller.ps1`"" -Verb RunAs
 ```
-
