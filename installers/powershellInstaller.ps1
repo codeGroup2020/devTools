@@ -75,4 +75,4 @@ if (-not $systemPath.Contains($devToolsPath)) {
 }
 
 
-Write-Output "Install Complete. Exiting..."
+Write-Output "Install Complete. You can now open a new CMD terminal or PowerShell terminal and run the 'devTools' command to run the program."
